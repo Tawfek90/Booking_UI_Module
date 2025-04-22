@@ -18,7 +18,7 @@ The solution was designed with **clean architecture**, **component modularity**,
 
 ## 🧰 Tech Stack
 
-- **Framework:** Next.js 14+
+- **Framework:** Next.js 14+
 - **Styling:** TailwindCSS
 - **State Management:** Redux-toolkit
 - **Mock Data:** Faker.js
@@ -28,15 +28,17 @@ The solution was designed with **clean architecture**, **component modularity**,
 
 ## 📦 Getting Started
 
-Follow these instructions to get the project running locally on your machine:
+Follow these steps to get the project up and running locally:
 
 ### 🔧 Prerequisites
 
-Make sure you have **Node.js (v18 or higher)** and **npm** installed.
+- **Node.js** (v18 or higher)
+- **npm** (bundled with Node.js)
 
-Check versions with:
+### 🔨 Clone & Install
 
-```bash
-node -v
-npm -v
-```
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/doctor-booking-ui.git
+   cd doctor-booking-ui
+   ```

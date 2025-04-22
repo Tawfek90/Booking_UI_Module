@@ -1,6 +1,6 @@
 # 🏥 Doctor Booking UI Module
 
-> A fully **responsive**, **accessible**, and **AI-assisted** appointment booking UI built with **Next.js**, **TailwindCSS**, and **Zustand** — for InVitro Capital’s Frontend Task.
+> A fully **responsive**, **accessible**, and **AI-assisted** appointment booking UI built with **Next.js**, **TailwindCSS**, and **Redux-toolkit** .
 
 ---
 
@@ -20,7 +20,7 @@ The solution was designed with **clean architecture**, **component modularity**,
 
 - **Framework:** Next.js 14+
 - **Styling:** TailwindCSS
-- **State Management:** Zustand
+- **State Management:** Redux-toolkit
 - **Mock Data:** Faker.js
 - **AI Tools:** Cursor & GitHub Copilot for scaffolding and accessibility hints
 
@@ -33,6 +33,6 @@ The solution was designed with **clean architecture**, **component modularity**,
 Ensure you have **Node.js (v18+)** and **npm** installed.
 
 ```bash
-node -v
-npm -v
+npm run build
+npm run start
 ```

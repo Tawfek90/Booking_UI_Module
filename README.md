@@ -38,7 +38,47 @@ Follow these steps to get the project up and running locally:
 ### 🔨 Clone & Install
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/your-username/doctor-booking-ui.git
    cd doctor-booking-ui
    ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+### 🏗 Build
+
+Run the production build:
+
+```bash
+npm run build
+```
+
+> **⚠️ Important:** Wait **until the build process finishes completely** before moving on. You should see a success message like `Compiled successfully` or `Build complete`.
+
+### ▶️ Start
+
+Start the production server:
+
+```bash
+npm run start
+```
+
+### 🌐 Open in your browser
+
+Navigate to [http://localhost:3000](http://localhost:3000) to view the app.
+
+---
+
+## 📝 Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+---
+
+## ⚖️ License
+
+This project is licensed under the MIT License.

@@ -18,7 +18,7 @@ The solution was designed with **clean architecture**, **component modularity**,
 
 ## 🧰 Tech Stack
 
-- **Framework:** Next.js 14+
+- **Framework:** Next.js 15+
 - **Styling:** TailwindCSS
 - **State Management:** Redux-toolkit
 - **Mock Data:** Faker.js

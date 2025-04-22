@@ -41,7 +41,7 @@ Follow these steps to get the project up and running locally:
 
    ```bash
    git clone https://github.com/Tawfek90/Booking_UI_Module.git
-   cd doctor-booking-ui
+   cd bookingmodule
    ```
 
 2. **Install dependencies**

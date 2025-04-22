@@ -1,0 +1,23 @@
+.appointmentsWrapper,
+.show {
+  @apply border border-white p-4 capitalize w-full max-w-[800px] transition-all duration-150 absolute top-[200px] left-[50%] z-20 bg-black  rounded-[5px];
+  box-shadow: 1px 1px 8px 2px #fff;
+  transform: translateX(-50%) scale(0);
+  ul {
+    @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4;
+    li {
+      @apply border border-white py-2 px-4 rounded-[5px];
+      box-shadow: 1px 1px 8px 2px #fff;
+    }
+  }
+  .dismissContainer {
+    @apply flex justify-end;
+    .dismiss {
+      @apply border border-white mt-2 py-2 px-4 rounded-[5px] bg-red-500 capitalize cursor-pointer;
+      box-shadow: 1px 1px 8px 2px #fff;
+    }
+  }
+}
+.show {
+  transform: translateX(-50%) scale(1);
+}

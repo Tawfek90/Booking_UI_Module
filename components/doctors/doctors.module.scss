@@ -1,0 +1,24 @@
+.pageWrapper {
+  @apply relative;
+  .welcome {
+    @apply text-[30px] font-[600] text-center mt-2 mb-8 rounded-[5px];
+    box-shadow: 1px 1px 8px 2px #fff;
+  }
+  .filterBy {
+    @apply flex items-center justify-center p-4 capitalize gap-4 mb-4 flex-wrap;
+
+    select {
+      @apply bg-black border border-white p-1 rounded-[5px];
+      box-shadow: 1px 1px 8px 2px #fff;
+      option {
+      }
+    }
+    .appointment {
+      @apply border border-white capitalize p-[5px] text-[12px] cursor-pointer rounded-[5px] ml-auto;
+      box-shadow: 1px 1px 8px 2px #fff;
+    }
+  }
+  .doctorsWrapper {
+    @apply grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center md:justify-items-start items-start;
+  }
+}

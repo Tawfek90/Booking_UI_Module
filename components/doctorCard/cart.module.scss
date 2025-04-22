@@ -1,0 +1,19 @@
+.card {
+  @apply justify-self-center my-2 border  bg-black border-white rounded-[5px]  md:max-w-[300px] w-[300px] transition-all duration-300;
+  box-shadow: 1px 1px 8px 2px #fff;
+  img {
+    @apply w-full h-[200px];
+  }
+  .content {
+    @apply p-4 capitalize font-[600] h-[161px] text-[11px];
+    p {
+      @apply my-1;
+    }
+  }
+  &:hover {
+    transform: translate(10px, 10px) scale(1.2);
+  }
+  .book {
+    @apply bg-blue-500 w-full p-4 text-center capitalize cursor-pointer;
+  }
+}

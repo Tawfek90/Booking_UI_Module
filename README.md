@@ -82,3 +82,11 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## ⚖️ License
 
 This project is licensed under the MIT License.
+
+---
+
+## 🚧 Known Limitations & Next Steps
+
+- **No theming or dark mode**: All styles are hard‑coded to the default light theme. **Next Step:** Implement TailwindCSS theming with a light/dark mode toggle.
+- **Mock data only**: Currently uses Faker.js to generate mock doctor and appointment data. **Next Step:** Integrate with a real backend REST/GraphQL API.
+- **Lack of automated tests**: No unit, integration, or end‑to‑end tests in place. **Next Step:** Introduce Jest with React Testing Library for unit tests and Cypress for end‑to‑end testing.

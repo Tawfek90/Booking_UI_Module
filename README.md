@@ -1,6 +1,6 @@
 # 🏥 Doctor Booking UI Module
 
-> A fully **responsive**, **accessible**, and **AI-assisted** appointment booking UI built with **Next.js**, **TailwindCSS**, and **Redux-toolkit** .
+> A fully **responsive**, **accessible**, and **AI-assisted** appointment booking UI built with **Next.js**, **TailwindCSS**, and **Redux-toolkit**.
 
 ---
 
@@ -28,11 +28,15 @@ The solution was designed with **clean architecture**, **component modularity**,
 
 ## 📦 Getting Started
 
+Follow these instructions to get the project running locally on your machine:
+
 ### 🔧 Prerequisites
 
-Ensure you have **Node.js (v18+)** and **npm** installed.
+Make sure you have **Node.js (v18 or higher)** and **npm** installed.
+
+Check versions with:
 
 ```bash
-npm run build
-npm run start
+node -v
+npm -v
 ```
